@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SniffingIDS.jnlp">
+  <information>
+    <title>SniffingIDS</title>
+    <vendor>Sniffing in Confidential Intrusion Detection</vendor>
+    <description>SniffingIDS</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SniffingIDS.jar" size="2601" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="com.SniffID.SniffsIDS.Main"  name="SniffingIDS" />
+  <update check="background"/>
+</jnlp>

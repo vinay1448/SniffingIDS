@@ -1,0 +1,1369 @@
+
+Received packet at Mon Dec 30 10:57:30 GMT 2024caplen=55 len=55
+
+Packet Data: 
+Frame:
+Frame:                                  number = 0
+Frame:                               timestamp = 2024-12-30 10:57:30.12
+Frame:                             wire length = 55 bytes
+Frame:                         captured length = 55 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 41
+Ip:                                       id = 0x6617 (26135)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0xC731]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 74.125.193.94
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 32966
+Tcp:                              destination = 80
+Tcp:                                      seq = 0xD6BE6D48 (3602804040)
+Tcp:                                      ack = 0x9B6D082D (2607613997)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 510
+Tcp:                                 checksum = 0xCDA1 (52641) [incorrect: 0x7797]
+Tcp:                                   urgent = 0
+Tcp: 
+Data:  ******* Payload offset=54 (0x36) length=1 
+Data: 
+0036: 00                                                    .               
+
+
+
+
+Received packet at Mon Dec 30 10:57:30 GMT 2024caplen=66 len=66
+
+Packet Data: 
+Frame:
+Frame:                                  number = 1
+Frame:                               timestamp = 2024-12-30 10:57:30.128
+Frame:                             wire length = 66 bytes
+Frame:                         captured length = 66 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 52
+Ip:                                       id = 0x66AA (26282)
+Ip:                                    flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 121 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0xD94 (3476) [correct]
+Ip:                                   source = 74.125.193.94
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=32 
+Tcp: 
+Tcp:                                   source = 80
+Tcp:                              destination = 32966
+Tcp:                                      seq = 0x9B6D082D (2607613997)
+Tcp:                                      ack = 0xD6BE6D49 (3602804041)
+Tcp:                                     hlen = 8
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 1052
+Tcp:                                 checksum = 0xB752 (46930) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+Tcp: + NoOp: offset=20 length=1
+Tcp:                                     code = 1
+Tcp:                                   length = 1 [implied length from option type]
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:30 GMT 2024caplen=288 len=288
+
+Packet Data: 
+Frame:
+Frame:                                  number = 2
+Frame:                               timestamp = 2024-12-30 10:57:30.845
+Frame:                             wire length = 288 bytes
+Frame:                         captured length = 288 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 01:00:5e:00:00:fb
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 34:b9:8d:c0:c4:87
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 274
+Ip:                                       id = 0xCBDA (52186)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 255 [time to live]
+Ip:                                     type = 17 [next: User Datagram]
+Ip:                                 checksum = 0xC52 (3154) [correct]
+Ip:                                   source = 192.168.1.10
+Ip:                              destination = 224.0.0.251
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:                                   source = 5353
+Udp:                              destination = 5353
+Udp:                                   length = 254
+Udp:                                 checksum = 0xD830 (55344) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=246 
+Data: 
+002a: 00 00 84 00  00 00 00 04  00 00 00 03  02 31 30 01    .............10.
+003a: 31 03 31 36  38 03 31 39  32 07 69 6e  2d 61 64 64    1.168.192.in-add
+004a: 72 04 61 72  70 61 00 00  0c 80 01 00  00 00 78 00    r.arpa........x.
+005a: 0f 07 41 6e  64 72 6f 69  64 05 6c 6f  63 61 6c 00    ..Android.local.
+006a: 01 42 01 46  01 30 01 38  01 34 01 33  01 31 01 32    .B.F.0.8.4.3.1.2
+007a: 01 35 01 39  01 32 01 41  01 39 01 45  01 37 01 42    .5.9.2.A.9.E.7.B
+008a: 01 30 01 30  01 30 01 30  01 30 01 30  01 30 01 30    .0.0.0.0.0.0.0.0
+009a: 01 30 01 30  01 30 01 30  01 30 01 38  01 45 01 46    .0.0.0.0.0.8.E.F
+00aa: 03 69 70 36  c0 21 00 0c  80 01 00 00  00 78 00 02    .ip6.!.......x..
+00ba: c0 31 c0 31  00 01 80 01  00 00 00 78  00 04 c0 a8    .1.1.......x....
+00ca: 01 0a c0 31  00 1c 80 01  00 00 00 78  00 10 fe 80    ...1.......x....
+00da: 00 00 00 00  00 00 b7 e9  a2 95 21 34  80 fb c0 0c    ..........!4....
+00ea: 00 2f 80 01  00 00 00 78  00 06 c0 0c  00 02 00 08    ./.....x........
+00fa: c0 40 00 2f  80 01 00 00  00 78 00 06  c0 40 00 02    .@./.....x...@..
+010a: 00 08 c0 31  00 2f 80 01  00 00 00 78  00 08 c0 31    ...1./.....x...1
+011a: 00 04 40 00  00 08                                    ..@...          
+
+
+
+
+Received packet at Mon Dec 30 10:57:30 GMT 2024caplen=117 len=117
+
+Packet Data: 
+Frame:
+Frame:                                  number = 3
+Frame:                               timestamp = 2024-12-30 10:57:30.845
+Frame:                             wire length = 117 bytes
+Frame:                         captured length = 117 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = ff:ff:ff:ff:ff:ff
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0xB8 (184)
+Ip:                    1011 10.. = [46] code point: code point 46
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 103
+Ip:                                       id = 0x4E16 (19990)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 64 [time to live]
+Ip:                                     type = 17 [next: User Datagram]
+Ip:                                 checksum = 0x666A (26218) [correct]
+Ip:                                   source = 192.168.1.254
+Ip:                              destination = 192.168.1.255
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:                                   source = 9431
+Udp:                              destination = 9431
+Udp:                                   length = 83
+Udp:                                 checksum = 0x4433 (17459) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=75 
+Data: 
+002a: 69 73 6d 3a  2f 2f 31 39  32 2e 31 36  38 2e 31 2e    ism://192.168.1.
+003a: 32 35 34 3a  39 34 33 31  2f 3f 6e 61  6d 65 47 61    254:9431/?nameGa
+004a: 74 65 77 61  79 3d 4e 37  32 32 32 34  34 35 55 30    teway=N7222445U0
+005a: 31 35 31 39  36 26 73 73  6c 4d 74 68  64 3d 6e 6f    15196&sslMthd=no
+006a: 6e 65 23 56  65 72 3d 32  2e 33 00                    ne#Ver=2.3.     
+
+
+
+
+Received packet at Mon Dec 30 10:57:30 GMT 2024caplen=60 len=60
+
+Packet Data: 
+Frame:
+Frame:                                  number = 4
+Frame:                               timestamp = 2024-12-30 10:57:30.845
+Frame:                             wire length = 60 bytes
+Frame:                         captured length = 60 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = ff:ff:ff:ff:ff:ff
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x806 (2054)
+Eth: 
+Arp:  ******* Arp offset=14 (0xE) length=28 
+Arp: 
+Arp:                             hardwareType = 1 [ETHERNET]
+Arp:                             protocolType = 0x800 (2048) [IP]
+Arp:                            hardware size = 6 bytes
+Arp:                            protocol size = 4 bytes
+Arp:                                  op code = 1 [REQUEST]
+Arp:                               sender MAC = 88:0f:a2:4d:0e:37
+Arp:                                sender IP = 192.168.1.254
+Arp:                               target MAC = 00:00:00:00:00:00
+Arp:                                target IP = 192.168.1.3
+Arp: 
+Data:  ******* Payload offset=42 (0x2A) length=18 
+Data: 
+002a: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00    ................
+003a: 00 00                                                 ..              
+
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=66 len=66
+
+Packet Data: 
+Frame:
+Frame:                                  number = 5
+Frame:                               timestamp = 2024-12-30 10:57:31.853
+Frame:                             wire length = 66 bytes
+Frame:                         captured length = 66 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 52
+Ip:                                       id = 0x165D (5725)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0x102B]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 35.223.238.178
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=32 
+Tcp: 
+Tcp:                                   source = 33501
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x9187264D (2441553485)
+Tcp:                                      ack = 0x0 (0)
+Tcp:                                     hlen = 8
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x2 (2)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...0 .... = [0] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..1. = [1] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 64240
+Tcp:                                 checksum = 0xD462 (54370) [incorrect: 0x6376]
+Tcp:                                   urgent = 0
+Tcp: 
+Tcp: + MSS: offset=20 length=4
+Tcp:                                     code = 2
+Tcp:                                   length = 4
+Tcp:                                      mss = 1460
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=93 len=93
+
+Packet Data: 
+Frame:
+Frame:                                  number = 6
+Frame:                               timestamp = 2024-12-30 10:57:31.861
+Frame:                             wire length = 93 bytes
+Frame:                         captured length = 93 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 79
+Ip:                                       id = 0xB29A (45722)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0x769F]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 34.120.237.76
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 32726
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x858B536B (2240500587)
+Tcp:                                      ack = 0xC2B4EB50 (3266636624)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 508
+Tcp:                                 checksum = 0xD1B0 (53680) [incorrect: 0xBE5F]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=117 len=117
+
+Packet Data: 
+Frame:
+Frame:                                  number = 7
+Frame:                               timestamp = 2024-12-30 10:57:31.868
+Frame:                             wire length = 117 bytes
+Frame:                         captured length = 117 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = ff:ff:ff:ff:ff:ff
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0xB8 (184)
+Ip:                    1011 10.. = [46] code point: code point 46
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 103
+Ip:                                       id = 0x4E17 (19991)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 64 [time to live]
+Ip:                                     type = 17 [next: User Datagram]
+Ip:                                 checksum = 0x6669 (26217) [correct]
+Ip:                                   source = 192.168.1.254
+Ip:                              destination = 192.168.1.255
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:                                   source = 9431
+Udp:                              destination = 9431
+Udp:                                   length = 83
+Udp:                                 checksum = 0x4433 (17459) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=75 
+Data: 
+002a: 69 73 6d 3a  2f 2f 31 39  32 2e 31 36  38 2e 31 2e    ism://192.168.1.
+003a: 32 35 34 3a  39 34 33 31  2f 3f 6e 61  6d 65 47 61    254:9431/?nameGa
+004a: 74 65 77 61  79 3d 4e 37  32 32 32 34  34 35 55 30    teway=N7222445U0
+005a: 31 35 31 39  36 26 73 73  6c 4d 74 68  64 3d 6e 6f    15196&sslMthd=no
+006a: 6e 65 23 56  65 72 3d 32  2e 33 00                    ne#Ver=2.3.     
+
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=60 len=60
+
+Packet Data: 
+Frame:
+Frame:                                  number = 8
+Frame:                               timestamp = 2024-12-30 10:57:31.868
+Frame:                             wire length = 60 bytes
+Frame:                         captured length = 60 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = ff:ff:ff:ff:ff:ff
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x806 (2054)
+Eth: 
+Arp:  ******* Arp offset=14 (0xE) length=28 
+Arp: 
+Arp:                             hardwareType = 1 [ETHERNET]
+Arp:                             protocolType = 0x800 (2048) [IP]
+Arp:                            hardware size = 6 bytes
+Arp:                            protocol size = 4 bytes
+Arp:                                  op code = 1 [REQUEST]
+Arp:                               sender MAC = 88:0f:a2:4d:0e:37
+Arp:                                sender IP = 192.168.1.254
+Arp:                               target MAC = 00:00:00:00:00:00
+Arp:                                target IP = 192.168.1.3
+Arp: 
+Data:  ******* Payload offset=42 (0x2A) length=18 
+Data: 
+002a: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00    ................
+003a: 00 00                                                 ..              
+
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=93 len=93
+
+Packet Data: 
+Frame:
+Frame:                                  number = 9
+Frame:                               timestamp = 2024-12-30 10:57:31.869
+Frame:                             wire length = 93 bytes
+Frame:                         captured length = 93 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 79
+Ip:                                       id = 0x6C0A (27658)
+Ip:                                    flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 122 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x330 (816) [correct]
+Ip:                                   source = 34.120.237.76
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 32726
+Tcp:                                      seq = 0xC2B4EB50 (3266636624)
+Tcp:                                      ack = 0x858B5392 (2240500626)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 1041
+Tcp:                                 checksum = 0x2DCA (11722) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=54 len=54
+
+Packet Data: 
+Frame:
+Frame:                                  number = 10
+Frame:                               timestamp = 2024-12-30 10:57:31.869
+Frame:                             wire length = 54 bytes
+Frame:                         captured length = 54 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 40
+Ip:                                       id = 0xB29B (45723)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0x76C5]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 34.120.237.76
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 32726
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x858B5392 (2240500626)
+Tcp:                                      ack = 0xC2B4EB77 (3266636663)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 507
+Tcp:                                 checksum = 0xD189 (53641) [incorrect: 0xD38E]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=66 len=66
+
+Packet Data: 
+Frame:
+Frame:                                  number = 11
+Frame:                               timestamp = 2024-12-30 10:57:31.964
+Frame:                             wire length = 66 bytes
+Frame:                         captured length = 66 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 52
+Ip:                                       id = 0x0 (0)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 58 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x6C88 (27784) [correct]
+Ip:                                   source = 35.223.238.178
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=32 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 33501
+Tcp:                                      seq = 0x5E35B121 (1580577057)
+Tcp:                                      ack = 0x9187264E (2441553486)
+Tcp:                                     hlen = 8
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x12 (18)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..1. = [1] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 21300
+Tcp:                                 checksum = 0xFBF3 (64499) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+Tcp: + MSS: offset=20 length=4
+Tcp:                                     code = 2
+Tcp:                                   length = 4
+Tcp:                                      mss = 1420
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=54 len=54
+
+Packet Data: 
+Frame:
+Frame:                                  number = 12
+Frame:                               timestamp = 2024-12-30 10:57:31.964
+Frame:                             wire length = 54 bytes
+Frame:                         captured length = 54 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 40
+Ip:                                       id = 0x165E (5726)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0x1036]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 35.223.238.178
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 33501
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x9187264E (2441553486)
+Tcp:                                      ack = 0x5E35B122 (1580577058)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 515
+Tcp:                                 checksum = 0xD456 (54358) [incorrect: 0x8DCF]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=571 len=571
+
+Packet Data: 
+Frame:
+Frame:                                  number = 13
+Frame:                               timestamp = 2024-12-30 10:57:31.964
+Frame:                             wire length = 571 bytes
+Frame:                         captured length = 571 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 557
+Ip:                                       id = 0x165F (5727)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0xE30]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 35.223.238.178
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 33501
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x9187264E (2441553486)
+Tcp:                                      ack = 0x5E35B122 (1580577058)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 515
+Tcp:                                 checksum = 0xD65B (54875) [incorrect: 0xF47D]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:31 GMT 2024caplen=56 len=56
+
+Packet Data: 
+Frame:
+Frame:                                  number = 14
+Frame:                               timestamp = 2024-12-30 10:57:31.981
+Frame:                             wire length = 56 bytes
+Frame:                         captured length = 56 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 40
+Ip:                                       id = 0xD4E5 (54501)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 59 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x9ED5 (40661) [correct]
+Ip:                                   source = 34.94.232.12
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 31933
+Tcp:                                      seq = 0xA2B575A6 (2729801126)
+Tcp:                                      ack = 0x5F99EE4F (1603923535)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 488
+Tcp:                                 checksum = 0xFD19 (64793) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=60 len=60
+
+Packet Data: 
+Frame:
+Frame:                                  number = 15
+Frame:                               timestamp = 2024-12-30 10:57:32.083
+Frame:                             wire length = 60 bytes
+Frame:                         captured length = 60 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 40
+Ip:                                       id = 0x95FB (38395)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 58 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0xD698 (54936) [correct]
+Ip:                                   source = 35.223.238.178
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 33501
+Tcp:                                      seq = 0x5E35B122 (1580577058)
+Tcp:                                      ack = 0x91872853 (2441554003)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 163
+Tcp:                                 checksum = 0x8D2A (36138) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=1474 len=1474
+
+Packet Data: 
+Frame:
+Frame:                                  number = 16
+Frame:                               timestamp = 2024-12-30 10:57:32.085
+Frame:                             wire length = 1474 bytes
+Frame:                         captured length = 1474 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 1460
+Ip:                                       id = 0x95FC (38396)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 58 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0xD10B (53515) [correct]
+Ip:                                   source = 35.223.238.178
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 33501
+Tcp:                                      seq = 0x5E35B122 (1580577058)
+Tcp:                                      ack = 0x91872853 (2441554003)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 163
+Tcp:                                 checksum = 0xB66 (2918) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=54 len=54
+
+Packet Data: 
+Frame:
+Frame:                                  number = 17
+Frame:                               timestamp = 2024-12-30 10:57:32.085
+Frame:                             wire length = 54 bytes
+Frame:                         captured length = 54 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 40
+Ip:                                       id = 0x1660 (5728)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0x1034]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 35.223.238.178
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 33501
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x91872853 (2441554003)
+Tcp:                                      ack = 0x5E35B6AE (1580578478)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 515
+Tcp:                                 checksum = 0xD456 (54358) [incorrect: 0x863E]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=1474 len=1474
+
+Packet Data: 
+Frame:
+Frame:                                  number = 18
+Frame:                               timestamp = 2024-12-30 10:57:32.088
+Frame:                             wire length = 1474 bytes
+Frame:                         captured length = 1474 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 1460
+Ip:                                       id = 0x95FD (38397)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 58 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0xD10A (53514) [correct]
+Ip:                                   source = 35.223.238.178
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 33501
+Tcp:                                      seq = 0x5E35B6AE (1580578478)
+Tcp:                                      ack = 0x91872853 (2441554003)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 163
+Tcp:                                 checksum = 0x57E3 (22499) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=342 len=342
+
+Packet Data: 
+Frame:
+Frame:                                  number = 19
+Frame:                               timestamp = 2024-12-30 10:57:32.088
+Frame:                             wire length = 342 bytes
+Frame:                         captured length = 342 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                   source = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 328
+Ip:                                       id = 0x95FE (38398)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 58 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0xD575 (54645) [correct]
+Ip:                                   source = 35.223.238.178
+Ip:                              destination = 192.168.1.2
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 443
+Tcp:                              destination = 33501
+Tcp:                                      seq = 0x5E35BC3A (1580579898)
+Tcp:                                      ack = 0x91872853 (2441554003)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 163
+Tcp:                                 checksum = 0x2E5 (741) [correct]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=54 len=54
+
+Packet Data: 
+Frame:
+Frame:                                  number = 20
+Frame:                               timestamp = 2024-12-30 10:57:32.088
+Frame:                             wire length = 54 bytes
+Frame:                         captured length = 54 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 40
+Ip:                                       id = 0x1661 (5729)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0x1033]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 35.223.238.178
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 33501
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x91872853 (2441554003)
+Tcp:                                      ack = 0x5E35BD5A (1580580186)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 515
+Tcp:                                 checksum = 0xD456 (54358) [incorrect: 0x7F92]
+Tcp:                                   urgent = 0
+Tcp: 
+
+
+
+Received packet at Mon Dec 30 10:57:32 GMT 2024caplen=923 len=923
+
+Packet Data: 
+Frame:
+Frame:                                  number = 21
+Frame:                               timestamp = 2024-12-30 10:57:32.089
+Frame:                             wire length = 923 bytes
+Frame:                         captured length = 923 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 protocol suite=LAN
+Eth: 
+Eth:                              destination = 88:0f:a2:4d:0e:37
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                   source = 58:ce:2a:6d:c7:20
+Eth:                    .... ..0. .... .... = [2] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:                                     type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:                                  version = 4
+Ip:                                     hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:                                 diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:                                   length = 909
+Ip:                                       id = 0x1662 (5730)
+Ip:                                    flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:                                   offset = 0
+Ip:                                      ttl = 128 [time to live]
+Ip:                                     type = 6 [next: Transmission Control]
+Ip:                                 checksum = 0x0 (0) [incorrect: 0xCCD]
+Ip:                                   source = 192.168.1.2
+Ip:                              destination = 35.223.238.178
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:                                   source = 33501
+Tcp:                              destination = 443
+Tcp:                                      seq = 0x91872853 (2441554003)
+Tcp:                                      ack = 0x5E35BD5A (1580580186)
+Tcp:                                     hlen = 5
+Tcp:                                 reserved = 0
+Tcp:                                    flags = 0x18 (24)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 1... = [1] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:                                   window = 515
+Tcp:                                 checksum = 0xD7BB (55227) [incorrect: 0xD3FC]
+Tcp:                                   urgent = 0
+Tcp: 
+
+

@@ -1,0 +1,113 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SniffingIDS</groupId>
+  <artifactId>SniffingIDS</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <organization>
+    <name>Sniffing in Confidential Intrusion Detection</name>
+  </organization>
+
+  <properties>
+    <java.version>17</java.version> <!-- Matches the JDK version -->
+    <javafx.version>17.0.8</javafx.version> <!-- Matches the JavaFX SDK -->
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <!-- Jpcap library -->
+    <dependency>
+      <groupId>net.sourceforge.jpcap</groupId>
+      <artifactId>jpcap</artifactId>
+      <version>0.1.18-002</version>
+    </dependency>
+
+    <!-- jNetPcap library -->
+    <dependency>
+      <groupId>org.jnetpcap</groupId>
+      <artifactId>jnetpcap</artifactId>
+      <version>1.4.r1425</version>
+    </dependency>
+
+    <!-- JavaFX dependencies -->
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-base</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Maven Compiler Plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+
+      <!-- Maven Shade Plugin to create an executable JAR -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.4.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                  <mainClass>com.SniffID.SniffsIDS.App</mainClass>
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- JavaFX Maven Plugin for running and packaging -->
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>com.SniffID.SniffsIDS.App</mainClass>
+          <launcher>SniffingIDS</launcher>
+          <add-modules>javafx.controls,javafx.fxml</add-modules>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

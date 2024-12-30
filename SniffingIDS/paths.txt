@@ -1,0 +1,31 @@
+SniffingIDS-config.xml
+
+java -Djava.library.path="E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jnetpcap-1.4.r1425;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jpcap-0.01.16-win32" -cp "E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\SniffingIDS.jar;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.base.jar;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.controls.jar;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jnetpcap-1.4.r1425\jnetpcap.jar;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jpcap-0.01.16-win32\jpcap.jar" com.SniffID.SniffsIDS.App
+
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\SniffingIDS\target\SniffingIDS-0.0.1-SNAPSHOT.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.base.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.controls.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.fxml.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.graphics.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jnetpcap-1.4.r1425\jnetpcap-1.4.r1425-1d.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jpcap-0.01.16-win32\jpcap-0.1.18-002.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.media.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.swing.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx.web.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib\javafx-swt.jar
+
+C:\Users\vinay\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\jre
+
+-Djava.library.path="E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jnetpcap-1.4.r1425;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jpcap-0.01.16-win32"
+--module-path "E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\javafx-sdk-17.0.13\lib" --add-modules javafx.controls,javafx.fxml
+
+17
+
+64 bit
+
+PATH=E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jnetpcap-1.4.r1425;E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\jpcap-0.01.16-win32;%PATH%
+
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\SniffingIDS.exe
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\SniffingIDS\target\SniffingIDS-0.0.1-SNAPSHOT.jar
+E:\zscaler misc\Miscellaneous seagate\vinay documents\vinaynewdocuments\ProjectSniffing\SharkFin.ico
+com.SniffID.SniffsIDS.App
